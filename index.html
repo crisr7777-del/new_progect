@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2: Aurora Clash — Киберспортивный турнир</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero" id="top">
+        <div class="overlay"></div>
+        <div class="container">
+            <nav class="navigation">
+                <a href="#top" class="logo">Aurora Clash</a>
+                <ul class="nav-links">
+                    <li><a href="#about">О турнире</a></li>
+                    <li><a href="#schedule">Расписание</a></li>
+                    <li><a href="#teams">Команды</a></li>
+                    <li><a href="#prizes">Призы</a></li>
+                    <li><a href="#register" class="btn btn-small">Регистрация</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <p class="eyebrow">12–14 июля 2024 • Москва &amp; онлайн</p>
+                <h1>Главная арена CS2 этого лета</h1>
+                <p class="lead">Присоединяйся к Aurora Clash — зрелищному турниру с участием лучших коллективов СНГ и открытой квалификацией для амбициозных команд.</p>
+                <div class="hero-actions">
+                    <a href="#register" class="btn">Подать заявку</a>
+                    <a href="#stream" class="btn btn-secondary">Смотреть трансляцию</a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <span class="value">$25 000</span>
+                        <span class="label">Призовой фонд</span>
+                    </div>
+                    <div>
+                        <span class="value">16</span>
+                        <span class="label">Команд</span>
+                    </div>
+                    <div>
+                        <span class="value">2</span>
+                        <span class="label">Дня LAN-финала</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gradient"></div>
+    </header>
+
+    <main>
+        <section class="section" id="about">
+            <div class="container split">
+                <div>
+                    <h2>О турнире</h2>
+                    <p>Aurora Clash — это ежегодный киберспортивный фестиваль, посвящённый Counter-Strike 2. В 2024 году турнир объединяет топовые коллективы региона и открывает дорогу новым талантам через квалификации.</p>
+                    <div class="highlight-grid">
+                        <article>
+                            <h3>Формат</h3>
+                            <p>Закрытые квалификации онлайн, затем групповой этап и финальный LAN на площадке Aurora Arena.</p>
+                        </article>
+                        <article>
+                            <h3>Покрытие</h3>
+                            <p>Многоязычные трансляции, аналитика с участием звёзд CS-сцены и интерактив с чатом зрителей.</p>
+                        </article>
+                        <article>
+                            <h3>Инфраструктура</h3>
+                            <p>Игровые станции с оборудованием премиум-класса, зона для болельщиков и фан-мит с профессиональными игроками.</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="card countdown" id="stream">
+                    <h3>До старта трансляции:</h3>
+                    <div class="countdown-timer" id="countdown">
+                        <div><span id="days">00</span><small>дней</small></div>
+                        <div><span id="hours">00</span><small>часов</small></div>
+                        <div><span id="minutes">00</span><small>минут</small></div>
+                        <div><span id="seconds">00</span><small>секунд</small></div>
+                    </div>
+                    <p>Первый матч стартует 12 июля в 12:00 (MSK). Подписывайся на уведомления, чтобы не пропустить живой эфир.</p>
+                    <a class="btn btn-outline" href="https://twitch.tv" target="_blank" rel="noopener">Перейти на Twitch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark" id="schedule">
+            <div class="container">
+                <h2>Расписание этапов</h2>
+                <div class="timeline">
+                    <div class="stage">
+                        <h3>Открытые квалификации</h3>
+                        <p>18–26 июня • Онлайн</p>
+                        <ul>
+                            <li>Best-of-1 до топ-32</li>
+                            <li>Best-of-3 решающие матчи</li>
+                            <li>4 команды проходят в закрытый этап</li>
+                        </ul>
+                    </div>
+                    <div class="stage">
+                        <h3>Закрытый этап</h3>
+                        <p>30 июня – 4 июля • Онлайн</p>
+                        <ul>
+                            <li>Групповой раунд Robin, 2 группы по 6 команд</li>
+                            <li>Топ-2 каждой группы выходят в плей-офф</li>
+                            <li>Матчи в формате Best-of-3</li>
+                        </ul>
+                    </div>
+                    <div class="stage">
+                        <h3>LAN-финал</h3>
+                        <p>12–14 июля • Aurora Arena</p>
+                        <ul>
+                            <li>Сцена на 1000 зрителей</li>
+                            <li>Плей-офф Double Elimination</li>
+                            <li>Большой финал Best-of-5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="teams">
+            <div class="container">
+                <h2>Приглашённые команды</h2>
+                <div class="team-grid">
+                    <article class="team-card">
+                        <h3>Polar Owls</h3>
+                        <p>Чемпионы прошлого сезона, известные агрессивным стилем и блиц-атаками на карте Nuke.</p>
+                        <span class="tag">#1 Seed</span>
+                    </article>
+                    <article class="team-card">
+                        <h3>Nova Five</h3>
+                        <p>Молодой состав, который ворвался в топ-10 ESL World Ranking в течение одного сезона.</p>
+                        <span class="tag">Wild Card</span>
+                    </article>
+                    <article class="team-card">
+                        <h3>Red Vipers</h3>
+                        <p>Опытная пятёрка со взрывной атакой и легендарным снайпером «NEON».</p>
+                        <span class="tag">Invited</span>
+                    </article>
+                    <article class="team-card">
+                        <h3>Solaris</h3>
+                        <p>Славятся дисциплинированной защитой и продуманными сетапами гранат.</p>
+                        <span class="tag">Invited</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="prizes">
+            <div class="container split">
+                <div>
+                    <h2>Призовой фонд</h2>
+                    <p>Призовой фонд в размере $25 000 распределяется между участниками LAN-финала следующим образом:</p>
+                    <ul class="prize-list">
+                        <li><span>1 место</span><span>$12 500 + слот на Aurora Masters 2024</span></li>
+                        <li><span>2 место</span><span>$6 500</span></li>
+                        <li><span>3 место</span><span>$4 000</span></li>
+                        <li><span>4 место</span><span>$2 000</span></li>
+                    </ul>
+                    <p>Дополнительные номинации: MVP турнира, лучший клатчер и приз зрительских симпатий.</p>
+                </div>
+                <div class="card">
+                    <h3>Партнёры турнира</h3>
+                    <ul class="partner-list">
+                        <li>Aurora Technologies</li>
+                        <li>HyperNova Gear</li>
+                        <li>Esports Plaza</li>
+                        <li>Streamline Media</li>
+                    </ul>
+                    <p>Хотите стать партнёром? Свяжитесь с нами по адресу <a href="mailto:partners@auroraclash.gg">partners@auroraclash.gg</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark" id="register">
+            <div class="container split">
+                <div>
+                    <h2>Успей зарегистрироваться</h2>
+                    <p>Команды с рейтингом FACEIT 6 и выше могут принять участие в открытых квалификациях. Заполните форму и ожидайте приглашения на ближайший турнир.</p>
+                    <ol class="steps">
+                        <li>Подготовьте ссылку на командный профиль и список игроков.</li>
+                        <li>Укажите контакт капитана и предпочтительные даты.</li>
+                        <li>Получите подтверждение и инструкции по матчам.</li>
+                    </ol>
+                </div>
+                <form class="card form">
+                    <label>
+                        Название команды
+                        <input type="text" name="team" placeholder="Например, Arctic Flame" required>
+                    </label>
+                    <label>
+                        Ссылка на командный профиль
+                        <input type="url" name="profile" placeholder="https://faceit.com/..." required>
+                    </label>
+                    <label>
+                        Контакт капитана
+                        <input type="email" name="captain" placeholder="captain@email.com" required>
+                    </label>
+                    <label>
+                        Регион
+                        <select name="region" required>
+                            <option value="">Выберите регион</option>
+                            <option value="ru">Россия</option>
+                            <option value="cis">СНГ</option>
+                            <option value="eu">Европа</option>
+                            <option value="other">Другой</option>
+                        </select>
+                    </label>
+                    <label>
+                        Сообщение
+                        <textarea name="message" rows="4" placeholder="Расскажите о достижениях команды"></textarea>
+                    </label>
+                    <button type="submit" class="btn">Отправить заявку</button>
+                    <p class="form-note">Нажимая «Отправить заявку», вы соглашаетесь с <a href="#">правилами турнира</a>.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <span class="logo">Aurora Clash</span>
+                <p>© 2024 Aurora Esports. Все права защищены.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#about">О турнире</a>
+                <a href="#schedule">Расписание</a>
+                <a href="#register">Регистрация</a>
+                <a href="mailto:info@auroraclash.gg">info@auroraclash.gg</a>
+            </div>
+            <div class="socials">
+                <a href="https://vk.com" target="_blank" rel="noopener" aria-label="VK">VK</a>
+                <a href="https://t.me" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const targetDate = new Date('2024-07-12T12:00:00+03:00').getTime();
+        const daysEl = document.getElementById('days');
+        const hoursEl = document.getElementById('hours');
+        const minutesEl = document.getElementById('minutes');
+        const secondsEl = document.getElementById('seconds');
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const difference = targetDate - now;
+
+            if (difference <= 0) {
+                daysEl.textContent = '00';
+                hoursEl.textContent = '00';
+                minutesEl.textContent = '00';
+                secondsEl.textContent = '00';
+                return;
+            }
+
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+            daysEl.textContent = String(days).padStart(2, '0');
+            hoursEl.textContent = String(hours).padStart(2, '0');
+            minutesEl.textContent = String(minutes).padStart(2, '0');
+            secondsEl.textContent = String(seconds).padStart(2, '0');
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
